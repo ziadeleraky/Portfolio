@@ -25,8 +25,8 @@ AOS.init({
 
 // Typing Animation
 var typed = new Typed(".autoType", {
-  strings: ['WEB DEVELOPER', 'UI / UX DESIGNER'],
-  typeSpeed: 150,
+  strings: ['FRONTEND DEVELOPER', 'MEARN STACK DEVELOPER', 'FULL STACK DEVELOPER'],
+  typeSpeed: 80,
   backSpeed: 60,
   loop: true
 });

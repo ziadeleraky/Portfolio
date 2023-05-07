@@ -129,7 +129,8 @@ img {
   .navbar {
     min-height: 100vh;
     width: var(--sidbar-width);
-    background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)), url(../imgs/prometheus-design-cjQ_W-d-Yjs-unsplash.jpg);
+    background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9)),
+      url(../imgs/prometheus-design-cjQ_W-d-Yjs-unsplash.jpg);
     background-size: cover;
   }
   .navbar-brand img {
@@ -157,7 +158,16 @@ img {
 
 /* card */
 
-.card-custom .card-custom-image {
+
+
+.card-custom {
+  overflow: hidden;
+}
+
+.card-custom-image {
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
   overflow: hidden;
 }
 
@@ -172,6 +182,9 @@ img {
 .pj-img {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+  width: 500px;
+  /* object-fit: cover;
+    object-position: center; */
 }
 
 /* contact */
@@ -184,4 +197,15 @@ img {
 #contact .form-control:focus {
   border-color: var(--color-brand);
   box-shadow: none;
+}
+
+.icon-container {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+.ico {
+  width: 70px;
+  padding: 0 10px;
 }
