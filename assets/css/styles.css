@@ -209,3 +209,12 @@ img {
   width: 70px;
   padding: 0 10px;
 }
+
+/* .img-ico {
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+}
+
+.img-ico:hover {
+  filter: grayscale(0%);
+} */
